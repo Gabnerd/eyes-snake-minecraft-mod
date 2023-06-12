@@ -11,6 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, EyesSnakeMod.MODID);
 
     public static final RegistryObject<ClearingEyesSnakeItem> CLEARING_EYES_SNAKE = ITEMS.register("clearing-eyes", ()-> new ClearingEyesSnakeItem(new Item.Properties()));
+    public static final RegistryObject<LifeEssenceItem> LIFE_ESSENCE = ITEMS.register("life-essence", ()-> new LifeEssenceItem(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

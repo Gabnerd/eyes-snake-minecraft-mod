@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "eyessnake:block/wishing-altar"
+    },
+    "facing=south": {
+      "model": "eyessnake:block/wishing-altar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "eyessnake:block/wishing-altar",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "eyessnake:block/wishing-altar",
+      "y": 90
+    }
+  }
+}

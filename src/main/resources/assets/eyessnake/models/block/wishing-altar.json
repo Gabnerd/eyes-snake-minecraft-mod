@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "eyessnake:block/wishing-altar/texture",
+		"1": "eyessnake:block/wishing-altar/texture2",
+		"particle": "texture"
+	},
+	"elements": [
+		{
+			"from": [7.10355, 0, 6.60355],
+			"to": [10.10355, 11, 9.60355],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.60355, 8.60355, 8]},
+			"faces": {
+				"north": {"uv": [0.25, 0.25, 0.75, 0.75], "texture": "#0"},
+				"east": {"uv": [1.25, 0.25, 1.75, 0.75], "texture": "#0"},
+				"south": {"uv": [2.25, 0.25, 2.75, 0.75], "texture": "#0"},
+				"west": {"uv": [3.25, 0.25, 3.75, 0.75], "texture": "#0"},
+				"up": {"uv": [4.25, 0.25, 4.75, 0.75], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [5.25, 0.25, 5.75, 0.75], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.60355, 8.72487, 5.73223],
+			"to": [13.60355, 16.72487, 7.73223],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8.60355, 10.72487, 5.73223]},
+			"faces": {
+				"north": {"uv": [0.25, 0.25, 0.75, 0.75], "rotation": 90, "texture": "#1"},
+				"east": {"uv": [1.25, 0.25, 1.75, 0.75], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [2.25, 0.25, 2.75, 0.75], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [3.25, 0.25, 3.75, 0.75], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [4.25, 0.25, 4.75, 0.75], "texture": "#1"},
+				"down": {"uv": [5.25, 0.25, 5.75, 0.75], "rotation": 180, "texture": "#1"}
+			}
+		}
+	]
+}
